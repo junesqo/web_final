@@ -11,7 +11,7 @@ def index(request):
     return render(request, 'products/index.html', context)
 
 def about(request):
-    return render(request, 'about.html')
+    return render(request, 'products/about.html')
 
 
 def products(request, category_id=None, page_number=1):
